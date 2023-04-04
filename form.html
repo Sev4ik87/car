@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img-car/10.png" type="image/x-icon">
+  <style>fieldset {display: inline-block}</style>
+  <title>Form</title>
+</head>
+<body>
+   <form> 
+  <fieldset>
+    <legend>Personal information:</legend>
+
+Firstname
+  <input name="firstname" type="text">
+<br>
+Lastname
+  <input name="lastname" type="text"><br>
+  <form>
+    Birthday
+    <input type="datetime-local" name="bdaytime">
+  </form>
+  <form><p>Gender</p>
+    <input type="radio" name="gender" value="male" checked> Male
+    <input type="radio" name="gender" value="female"> Female<br>
+    Drive expirience
+
+    <select name="Drive experience">
+      <option value="---">---</option>
+      <option value="1year">1 year</option>
+      <option value="2-3year">2-3year</option>
+      <option value=">3year">>3year</option>
+    </select>
+  </form>
+  </fieldset>
+
+  <fieldset>
+<legend>Contacts</legend>
+<form>
+  Email
+  <input type="text" name="Email"><br>
+  Phone
+  <input type="text" name="Phone"><br>
+  Address <br>
+  
+    <textarea name="Adress" rows="5" cols="29"></textarea>
+    <br>
+
+</form>
+
+  </fieldset>
+
+  <form >
+  <fieldset>
+
+    <legend>Car Info</legend>
+    Brand
+
+    <select name="Brand">
+      <option value="---">---</option>
+      <option value="Ford">Ford</option>
+      </select>
+      <br>
+      Model
+
+      <select name="Model">
+        <option value="---">---</option>
+        <option value="Mustang">Mustang</option>
+        </select>
+        <br>
+
+        Used
+        <input type="checkbox" name="vehicle1" value="used">
+        <br>
+        <form><p>Color</p>
+          <input type="radio" name="color" value="red" checked> Red
+          <input type="radio" name="color" value="black" checked>Black
+          <input type="radio" name="color" value="blue"checked>Blue
+          <input type="radio" name="color" value="red" checked>White
+          <input type="radio" name="color" value="red" checked>Grey
+          <br>
+          <div>Price
+            <input type="range" id="price" name="prie"
+                   min="0" max="8">
+          </div>
+          </form>
+</fieldset>
+</form> 
+<br> 
+<button type="button" onclick="alert('cancel')">Cancel</button>
+<button type="button" onclick="alert('ok')">Ok</button>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+html {
+  font-family: sans-serif;
+}
+table {
+  font-weight: 600;
+font-size: 0.9rem;
+text-align: center;
+width:60% ; 
+height: 70%;
+table-layout: fixed;
+border: 3px solid hsl(147, 100%, 25%);
+/* border-collapse: collapse; */
+margin: 30px 1px 100px 230px;
+}
+tr {
+ border: 3px solid rgb(0, 128, 68); 
+ /* box-sizing: border-box; */
+}
+td {
+  border: 3px solid rgb(0, 128, 79); 
+  /* box-sizing: border-box; */
+ }
+ footer {
+  position:fixed;
+
+  bottom:0;
+
+  left:0;
+
+  width:100%;
+
+  height: 35px;
+
+  
+
+}
+
+.footer-top {
+  background-color: #053a6a;
+  height: 70px;
+}
+.company,
+.abonents,
+.support {
+  margin: -4px 0px 2px 240px;
+  float: left;
+}
+.company h2,
+.abonents h2,
+.support h2 {
+  font-size: 0.4cm;
+  font-family:'Times New Roman', Times, serif ;
+  padding-top: 0px;
+  margin-bottom: 10px;
+  margin-left: -20px;
+  color: #f5f4f4;
+}
+
+
+.footer-left {
+  height: 100%;
+  display: inline-block;
+  background-color: #0a3965;
+}
+
+.Ford1 {
+  margin: 100px 10px 20px -10px;
+
+  
+  }
+  .BMW1 {
+    margin: 80px 10px 35px 4px;
+    
+    }
+    .toyota1 {
+      margin: 80px 10px 30px 5px;
+      
+      }
+
+header{
+  width: 100%;
+  height: 35px;
+  background-color: #1b4e70;
+  text-align: center;
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+  h1 {
+    color: #fff;
+    line-height: 230px;
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+  nav{
+    text-decoration-style: solid;
+    position: absolute;
+    bottom: -32px;
+    height: 60px;
+    line-height: 0px;
+    width: 100%;
+  }
+  .button {
+    
+    color: #f5f2f2;
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: 2px;
+     text-decoration: none ; 
+     border: none ; 
+  }
+   .button:hover {
+    color: #d2d0d0;
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: 2px;
+    text-decoration: none; 
+     border: none ; 
+  }
+    
+  
+
