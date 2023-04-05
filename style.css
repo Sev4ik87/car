@@ -1,6 +1,11 @@
 html {
   font-family: sans-serif;
 }
+  .alltext{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+ 
 table {
   font-weight: 600;
 font-size: 0.9rem;
@@ -65,6 +70,7 @@ td {
 
 .Ford1 {
   margin: 100px 10px 20px -10px;
+  
 
   
   }
